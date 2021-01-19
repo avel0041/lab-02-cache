@@ -1,8 +1,6 @@
 // Copyright 2021 avel0041 vel-ar@mail.ru
-#include <intrin.h>
 #include <chrono>
 #include <ctime>
-#include <header.hpp>
 #include <iostream>
 #include <map>
 #include <random>
