@@ -1,6 +1,0 @@
-/cygdrive/d/lab-02-cache/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/d/lab-02-cache/cmake-build-debug/CMakeFiles/test.dir
-/cygdrive/d/lab-02-cache/cmake-build-debug/CMakeFiles/edit_cache.dir
-/cygdrive/d/lab-02-cache/cmake-build-debug/CMakeFiles/main.dir
-/cygdrive/d/lab-02-cache/cmake-build-debug/CMakeFiles/template.dir
-/cygdrive/d/lab-02-cache/cmake-build-debug/CMakeFiles/tests.dir
