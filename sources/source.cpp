@@ -86,7 +86,7 @@ int main() {
       }
       auto end = std::chrono::high_resolution_clock::now();
       std::chrono::duration<double> sec =
-          std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
+          std::chrono::duration_cast<std::chrono::nanoseconds>(end - start) * !!k;
       double reading_1_elem_avg =
           sec.count() / it.first;  //среднее значение чтения 1 элемента
       all_time = reading_1_elem_avg +
@@ -130,7 +130,7 @@ int main() {
         unsigned int a = it.first;
         auto b = static_cast<double>(a);
         double reading_1_elem_avg =
-            sec.count() / b;  //среднее значение чтения 1 элемента
+            sec.count() * !!k / b;  //среднее значение чтения 1 элемента
         all_time = reading_1_elem_avg +
                    all_time;  //сумма всех средних значений за 100 экспериментов
       }
