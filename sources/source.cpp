@@ -45,7 +45,7 @@ int main() {
     // const double cycles = (ticks_end - ticks_start) * 16. / (1000 *
     // it.first); std::cout << cycles << " - ";
     auto end = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> sec = 
+    std::chrono::duration<double> sec =
         !!i * std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
 
     double final_avg = sec.count();
