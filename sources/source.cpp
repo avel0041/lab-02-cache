@@ -1,5 +1,5 @@
+// Copyright 2021 avel0041 vel-ar@mail.ru
 #include <intrin.h>
-
 #include <chrono>
 #include <ctime>
 #include <header.hpp>
@@ -130,7 +130,7 @@ int main() {
         std::chrono::duration<double> sec =
             std::chrono::duration_cast<std::chrono::nanoseconds>(end - start);
         unsigned int a = it.first;
-        auto b = (double) a;
+        auto b = static_cast<double>(a);
         double reading_1_elem_avg =
             sec.count() / b;  //среднее значение чтения 1 элемента
         all_time = reading_1_elem_avg +
