@@ -22,7 +22,7 @@ int main() {
   }
   for (auto& it : straight) {
     int* arr = new int[it.first];
-    for (auto i = 0; i < it.first; i += 16) arr[i] = i + 16;
+    for (unsigned int i = 0; i < it.first; i += 16) arr[i] = i + 16;
 
     arr[it.first - 16] = 0;
     // double all_time = 0;
