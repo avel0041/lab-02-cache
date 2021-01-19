@@ -33,3 +33,4 @@
 
 # Ignore the directory
 cmake-build-debug/
+/cmake-build-debug/

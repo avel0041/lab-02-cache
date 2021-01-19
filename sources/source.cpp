@@ -75,7 +75,7 @@ int main() {
     int k = 0;
     int* arr = new int[it.first];
     for (unsigned int i = it.first; i > 0; i -= 16) {
-      arr[i] = rand() % 10000;
+      arr[i] = 5;
     }
     for (unsigned int i = it.first; i > 0; i -= 16) {
       k = arr[i];
@@ -115,7 +115,7 @@ int main() {
       int k = 0;
       int* arr = new int[it.first];
       for (unsigned int i = 0; i < it.first; i += 16) {
-        arr[i] = rand() % 10000;
+        arr[i] = 5;
       }
       for (unsigned int i = 0; i < it.first; i += 16) {
         k = arr[i];
